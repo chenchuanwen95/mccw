@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/fragment_more_edittext_sarch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dip"
+            android:background="@drawable/btn_more_selector"
+            android:gravity="center"
+            android:hint="请输入你要搜索的内容"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/fragment_more_imageview_sarch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/ic_btn_search" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <Button
+            android:id="@+id/fragment_more_mianfei"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_marginRight="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/anniu_background1"
+            android:minHeight="0dp"
+            android:padding="10dip"
+            android:text="免费"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/fragment_more_remen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_marginRight="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/anniu_background2"
+            android:minHeight="0dp"
+            android:padding="10dip"
+            android:text="热门"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/fragment_more_fujin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_marginRight="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/anniu_background3"
+            android:minHeight="0dp"
+            android:padding="10dip"
+            android:text="附近"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/fragment_more_gv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dip"
+        android:background="#f2f2f2"
+        android:columnWidth="2dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dip"
+        android:numColumns="2"
+        android:verticalSpacing="5dip" >
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/fragment_sms_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EE8414"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="消息"
+        android:textSize="20sp" />
+
+    <ImageView android:id="@+id/fragment_sms_push"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dip"
+        android:src="@drawable/push" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_sms_title" >
+
+        <ListView
+            android:id="@+id/fragment_sms_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/fragment_sms_context"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="您暂时没有消息."
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

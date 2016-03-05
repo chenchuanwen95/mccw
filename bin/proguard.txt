@@ -1,0 +1,89 @@
+# view res/layout/home_activity.xml #generated:10
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class cn.bmob.push.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class cn.bmob.push.lib.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class cn.bmob.v3.update.UpdateDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.alipay.sdk.app.H5PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:194
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/send_gether_map.xml #generated:56
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class com.bmob.pay.tool.PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.ccw.happy.activity.GatherComment { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.ccw.happy.activity.GatherDetailted { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.ccw.happy.activity.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.ccw.happy.activity.InitMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.ccw.happy.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.ccw.happy.activity.MapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.ccw.happy.activity.MyDingDan { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.ccw.happy.activity.MyLoveGatherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.ccw.happy.activity.RegerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.ccw.happy.activity.SendGetherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.ccw.happy.activity.UserGatherAdmin { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.ccw.happy.activity.YouHuiQuan { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.ccw.happy.application.HappyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.ccw.happy.receiver.MyPushMessageReceiver { <init>(...); }
+
+# view res/layout/act_gather_admin.xml #generated:76
+# view res/layout/admin_taolun_item.xml #generated:14
+# view res/layout/fragment_home_item.xml #generated:22
+# view res/layout/fragment_me.xml #generated:49
+-keep class com.ccw.happy.view.MyImageView { <init>(...); }
+
+# view res/layout/fragment_home.xml #generated:8
+-keep class com.ccw.happy.view.XListView { <init>(...); }
+
+# onClick res/layout/fragment_me.xml #generated:105
+# onClick res/layout/fragment_me.xml #generated:129
+# onClick res/layout/fragment_me.xml #generated:153
+# onClick res/layout/fragment_me.xml #generated:81
+-keepclassmembers class * { *** clickMyLove(...); }
+
+# onClick res/layout/fragment_home_item.xml #generated:55
+# onClick res/layout/home_activity.xml #generated:123
+# onClick res/layout/home_activity.xml #generated:31
+# onClick res/layout/home_activity.xml #generated:57
+# onClick res/layout/home_activity.xml #generated:82
+# onClick res/layout/home_activity.xml #generated:98
+-keepclassmembers class * { *** onclick(...); }
+

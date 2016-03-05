@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EE8414"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/act_gather_admin_gobye"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/houtui" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="1dip"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/act_gather_admin_title"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="活动详情"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="1dip"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/act_gather_admin_guanli"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dip"
+            android:gravity="right|center_vertical"
+            android:text="管理"
+            android:textColor="#555555" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/act_gather_admingatherimg"
+                android:layout_width="match_parent"
+                android:layout_height="140dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_jpg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.ccw.happy.view.MyImageView
+                    android:id="@+id/act_gather_admin_usericon"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:src="@drawable/touxiang1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/act_gather_admin_gathername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dip"
+                        android:text="活动名称:"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/act_gather_admin_tv_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip"
+                        android:text="活动时间:"
+                        android:textColor="#99000000"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="1dip"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/act_gather_admin_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未进行" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:background="@drawable/tiaoxing"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/act_gather_admin_layout1"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dip"
+                    android:layout_marginTop="2dip"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/act_gather_admin_iv1"
+                        android:layout_width="23dip"
+                        android:layout_height="23dip"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/act_gather_admin1" />
+
+                    <TextView
+                        android:id="@+id/act_gather_admin_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/act_gather_admin_layout2"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dip"
+                    android:layout_marginTop="2dip"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/act_gather_admin_iv2"
+                        android:layout_width="23dip"
+                        android:layout_height="23dip"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/act_gather_admin2" />
+
+                    <TextView
+                        android:id="@+id/act_gather_admin_tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/act_gather_admin_layout3"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dip"
+                    android:layout_marginTop="2dip"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/act_gather_admin_iv3"
+                        android:layout_width="23dip"
+                        android:layout_height="23dip"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/act_gather_admin3" />
+
+                    <TextView
+                        android:id="@+id/act_gather_admin_tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/act_gather_admin_layout4"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dip"
+                    android:layout_marginTop="2dip"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/act_gather_admin_iv4"
+                        android:layout_width="23dip"
+                        android:layout_height="23dip"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/act_gather_admin4" />
+
+                    <TextView
+                        android:id="@+id/act_gather_admin_tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="5dip"
+                    android:text="活动描述:"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/act_gather_admin_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:gravity="center_vertical"
+                    android:hint="暂无描述信息"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/act_gather_admin_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="10dip"
+                    android:text="活动地址:"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/act_gather_admin_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_margin="5dip"
+                android:background="@drawable/btn_more_selector"
+                android:text="进入讨论区" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
